@@ -5,10 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Lebron James`s Proyect </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
-    <h1>Lebron James</h1>
-    <img src="img\20618-9-lebron-james.png" alt="">
+    
+     
+      <nav class="navbar">
+    <div class="navbar">
+      <div class="TeamLogo_block__rSWmO">
+        <img src="https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg" title=" Logo" alt=" Logo" class="TeamLogo_logo__PclAJ TeamHeader_teamLogoBW__s7vYd" loading="lazy">
+      </div>
+        <div>
+          <img class="PlayerImage_image__wH_YX PlayerSummary_playerImage__sysif" alt="LeBron James Headshot" src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" loading="lazy">
+        </div> 
+        <h1 class="title">Lebron James Project</h1>
+        
+        <a class="link" href="https://nba.com">NBA</a>
+        <button class="btn">Login</button>
+    </div>
+        <ul class="list">
+          <li class="list-item">
+            <a href="">Contacto</a>
+          </li>
+          <li class="list-item">
+            <a href="">Buscador</a>
+          </li>
+          <li class="list-item">
+            <a href="">Login</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <h2>
+          Best performance by team
+        </h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6gJCk2KMsQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div>
+        <label for="mail">Email</label>
+        <input required name="email" id="mail" type="email" placeholder="Add your email">
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input
+          required
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Add phone"
+          pattern="[0-9]+"
+        >
+      </div>
+      <div>
+        <label for="name">Name</label>
+        <input
+          required
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Add your name"
+          
+        >
+        <div>
+          <label for="surname">Surname</label>
+          <input
+            required
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Add your surname"
+            
+          >
+        </div>
+      </div>
+      <fieldset>
+        <legend>Of all the Lebron`s team, what is your favorite year performance?</legend>
+        <label for="clv">Cleveland</label>
+        <input type="radio" id="clv" name="favTeam" value="cleveland" checked>
+        <label for="mam">Miami</label>
+        <input type="radio" id="mam" name="favTeam" value="miami">
+        <label for="lkr">Lakers</label>
+        <input type="radio" id="lkr" name="favTeam" value="lakers">
+      </fieldset>
+      <label for="bio">Just tell us why ?</label>
+    <textarea required minlength="10" name="why" id="why"></textarea>
+      <input type="submit" value="Enviar">
+      <button type="submit">registrar</button>
 </body>
 <footer>
     <ul>
