@@ -13,18 +13,18 @@
   }
   
   .carousel-slides {
-    height: 30vh;
+    height: 50vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     overflow: hidden;
     scroll-behavior: smooth;
-  }
+    }
   
   .carousel-slides > div {
     height: 100%;
     width: 100%;
     color: rgb(255, 255, 255);
-    background-color: rgb(68, 68 ,68);
-       
+    background-color: rgb(255, 255, 255);
+    
   }
