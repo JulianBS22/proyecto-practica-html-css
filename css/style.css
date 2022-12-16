@@ -2,11 +2,15 @@
     --main-color: #552583;
     font-size: 25px;
     box-sizing: border-box;
+    
   }
   body {
     font-size: 16px;
     margin-left: 20px;
-    
+    background-image: url('https://images3.alphacoders.com/654/654784.jpg') ;
+    background-size: cover;
+    background-position: center;
+    color: goldenrod;
   }
  
   
