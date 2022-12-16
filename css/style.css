@@ -5,6 +5,7 @@
   }
   body {
     font-size: 16px;
+    margin-left: 20px;
     
   }
  
@@ -28,6 +29,7 @@
   
   .navbar {
     background-color: var(--main-color);
+    
   }
   
   .primary {
@@ -37,7 +39,7 @@
   /* navbar */
   .navbar {
     background-color: var(--main-color);
-    color: #FFF;
+    color: #FFF;display: inline-block;
   }
   
   .navbar a.link {
