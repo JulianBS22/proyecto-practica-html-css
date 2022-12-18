@@ -44,3 +44,10 @@
   .navbar .list .list-item a, .navbar {
     color: gold;
   }
+  .list-icons {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+    
+  }

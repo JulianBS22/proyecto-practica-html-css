@@ -10,20 +10,25 @@
     margin: 0 5px;
     display: block;
     border-radius: 50%;
+    
   }
   
   .carousel-slides {
     height: 50vw;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     overflow: hidden;
     scroll-behavior: smooth;
+    justify-content: space-between;
     }
   
   .carousel-slides > div {
     height: 100%;
     width: 100%;
+    align-items: center;
+    align-content: center;
     /*color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);*/
     

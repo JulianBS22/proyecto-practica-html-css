@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/flexbox.css">
   <link rel="stylesheet" href="css/carousel.css">
-  <link rel="stylesheet" media="all" href="/css/barras.css">
+  
   <link rel="stylesheet"  href="css/transition.css">
+  <link rel="stylesheet" media="all" href="/css/barras.css">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
   </div>
   <div>
     <h1>
-      Biography
+      <strong> <em>Biography </em>  </strong> 
     </h1>
     <h4>
       James was born on December 30, 1984, in Akron, Ohio, to Gloria Marie James, who was 16 at the time of his birth. His father, Anthony McClelland, has an extensive criminal record and was not involved in his life. When James was growing up, life was often a struggle for the family, as they moved from apartment to apartment in the seedier neighborhoods of Akron while Gloria struggled to find steady work. Realizing that her son would be better off in a more stable family environment, Gloria allowed him to move in with the family of Frank Walker, a local youth football coach who introduced James to basketball when he was nine years old.
@@ -58,7 +59,7 @@ James began playing organized basketball in the fifth grade. He later played Ama
   </div>
   <section class="carousel-container">
       <hr>
-      <h2>
+      <h2 id="bestPerformance">
         Best performance by team
       </h2>
       <hr>
@@ -91,10 +92,26 @@ James began playing organized basketball in the fifth grade. He later played Ama
       <a href="#slide3" class="carousel-dot"></a>
     </div>
   </section>
+  <h1>
+    Lebron´s Stats
+  </h1>
+    <form action="">
+      <div class="progress">Free-Throws %
+        <div id="barra1" class="progress-value"></div>
+      </div>
+    <hr>
+      <div class="progress2">3-points shots
+        <div id="barra2" class="progress-value2"></div>
+      </div>
+    <hr>
+      <div  class="progress3">2-points shots
+        <div id="barra3"class="progress-value3"></div>
+      </div>
+    </form>
     
   <hr>
-    <form>
-      <div>
+    <form id="suscribe">
+      <div class="personal">
         <label for="phone">Phone</label>
         <input required type="tel" name="phone" id="phone" placeholder="Add phone" pattern="[0-9]+">
       </div>
@@ -106,7 +123,7 @@ James began playing organized basketball in the fifth grade. He later played Ama
         <input required type="text" name="surname" id="surname" placeholder="Add your surname">
       </div>
     
-      <fieldset>
+      <fieldset class="election">
         <legend>Of all the LeBron teams, tell us what your best performance has been.</legend>
         <label for="clv">Cleveland</label>
         <input type="radio" id="clv" name="favTeam" value="cleveland">
@@ -125,28 +142,18 @@ James began playing organized basketball in the fifth grade. He later played Ama
       </div>
     </form>
   <!--stats-->
-  <h1>
-    Lebron´s Stats
-  </h1>
-    <form action="">
-      <div class="progress">Free-Throws %
-        <div id="barra1" class="progress-value"></div>
-      </div>
-    <hr>
-      <div class="progress2">3-points shots
-        <div id="barra2" class="progress-value2"></div>
-      </div>
-    <hr>
-      <div  class="progress3">2-points shots
-        <div id="barra3"class="progress-value3"></div>
-      </div>
-  </form>
+  
 </body>
 <footer>
-  <ul>
-    <li><a href="www.youtube.com">Youtube</a></li>
-    <li><a href="www.nba.com">NBA</a></li>
-    <li><a href="lebronjames.com">Web</a></li>
+  <ul class="list-icons">
+    <li><a href="www.youtube.com">
+      <img src="img\fondo-youtube-icono-youtube-iconos-redes-sociales-logotipo-realista-vector-zaporizhzhia-ucrania-10-mayo-2021_399089-1047.webp" alt="youtube-icon" height="30px" width="30px">
+    </a></li>
+    <li><a href="www.nba.com">
+      <img src="img\NBA-logo-png-download-free (1).png" alt="icono-NBA" width="30px" height="30px" ></a></li>
+    <li><a href="lebronjames.com">
+      <img src="img\20618-9-lebron-james.png" alt="lebronjames-icon" height="30px" width="30px">
+    </a></li>
   </ul>
 </footer>
 
