@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Grid</title>
+    <link rel="stylesheet" href="css\gridcss.css">
+</head>
+<body>
+    <h1>
+        <strong> Best Dunks</strong>
+    </h1>
+    <style>
+        .dunk-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(2, auto);
+          gap: 20px;
+        }
+      </style>
+      
+      <div class="dunk-container">
+        <div class="dunk-item">
+           <img src="img\dunk1.jpg" alt="dunk1"> Dunk n 1</div>
+        <div class="dunk-item2">
+            <img src="img\dunk2.jpg" alt="dunk2"> Dunk n 2</div>
+        <div class="dunk-item3">
+            <img src="img\dunk3.jpg" alt="dunk3"> Dunk n 3</div>
+        <div class="dunk-item4">
+            <img src="img\dunk4.jpg" alt="dunk4"> Dunk n 4</div>
+        <div class="dunk-item5">
+            <img src="img\dunk5.jpg" alt="dunk5"> Dunk n 5</div>
+        <div class="dunk-item6">
+            <img src="img\dunk6.jpg" alt="dunk6"> Dunk n 6</div>
+      </div>
+</body>
+</html>

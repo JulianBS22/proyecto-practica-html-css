@@ -74,7 +74,7 @@
     
   }
   @media screen and (min-width: 746px) {
-    /* CSS de ancho > 546px */
+    
     .navbar a.link {
       text-decoration: underline;
       text-align: center;
@@ -132,3 +132,4 @@
     background-color: #4CAF50;
     color: gold;
   }
+
