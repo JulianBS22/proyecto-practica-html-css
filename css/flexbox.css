@@ -2,9 +2,7 @@
     background-color: blue;
     height: 10vh;
     display: flex;
-    /* flex-direction: row X column Y*/
     justify-content: space-evenly;
-    /* flex-direction: row Y column X */
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;

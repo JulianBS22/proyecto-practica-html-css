@@ -1,161 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Lebron James`s Proyect </title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/flexbox.css">
-  <link rel="stylesheet" href="css/carousel.css">
-  <link rel="stylesheet"  href="css/transition.css">
-  <link rel="stylesheet" media="all" href="/css/barras.css">
-</head>
-
-<body>
-
-</div>
-
-  <nav class="navbar">
-    <div class="navbar">
-      <div class="TeamLogo_block__rSWmO">
-        <img src="https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg" title=" Logo" alt=" Logo"
-          class="TeamLogo_logo__PclAJ TeamHeader_teamLogoBW__s7vYd" loading="lazy">
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebron James proyect</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-2.ico">
+    <meta name="description" content="Lebron James">
+    <meta property="og:title" content="Lebron James">
+    <meta property="og:description" content="I am the King, King James">
+    <meta property="og:image" content="https://keepcodingweb13.github.io/html-css-practica/images/social.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="image-container">
+        <a href="index.html">
+          <img src="img\lebronjames.png" alt="KingKames">
+        </a>
       </div>
-      <div>
-        <img class="PlayerImage_image__wH_YX PlayerSummary_playerImage__sysif" alt="LeBron James Headshot"
-          src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" loading="lazy">
+      <div class="desktop-menu">
+        <ul class="menu">
+          <li class="list-item">
+            <a href="projects.html">Proyectos</a>
+          </li>
+          <li class="list-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="list-item">
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
-      <h1 class="title">Lebron James Project</h1>
-
-      <a class="link" href="https://nba.com" rel="nofollow">
-        <img src="img\NBA-logo-png-download-free (1).png" alt="NBA-icon" width="35" height="35">
-      </a>
-      <button class="btn">Login</button>
-      <!--</div>-->
-      <ul class="list">
-        <li class="list-item">
-          <a href="#bestPerformance" class="button" >Best Performance</a>
-        </li>
-        <li class="list-item" >
-          <a href="error404.html" class="list-item2">Buscador</a>
-        </li>
-        <li class="list-item">
-          <a href="#suscribe" class="list-item3">Suscribe</a>
-        </li>
-      </ul>
-  </nav>
-  </div>
-  <div>
-    <h1>
-      <strong> <em>Biography </em>  </strong> 
-    </h1>
-    <h4>
-      James was born on December 30, 1984, in Akron, Ohio, to Gloria Marie James, who was 16 at the time of his birth. His father, Anthony McClelland, has an extensive criminal record and was not involved in his life. When James was growing up, life was often a struggle for the family, as they moved from apartment to apartment in the seedier neighborhoods of Akron while Gloria struggled to find steady work. Realizing that her son would be better off in a more stable family environment, Gloria allowed him to move in with the family of Frank Walker, a local youth football coach who introduced James to basketball when he was nine years old.
-
-James began playing organized basketball in the fifth grade. He later played Amateur Athletic Union (AAU) basketball for the Northeast Ohio Shooting Stars. The team enjoyed success on a local and national level, led by James and his friends Sian Cotton, Dru Joyce III, and Willie McGee. The group dubbed themselves the "Fab Four" and promised each other that they would attend high school together. In a move that stirred local controversy, they chose to attend St. Vincent–St. Mary High School, a private Catholic school with predominantly white students.
-    </h4>
-  </div>
-  <section class="carousel-container">
-      <hr>
-      <h2 id="bestPerformance">
-        Best performance by team
-      </h2>
-      <hr>
-      <div class="carousel-slides">
-        <div>
-        <div id="slide1">
-          <h3>Cleveland Cavaliers</h3>
-            <iframe  src="https://www.youtube.com/embed/6gJCk2KMsQw" title="YouTube video player"
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+      <div class="mobile-menu">
+        <label for="hamburger-input">Menu</label>
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+          <ul class="menu">
+            <li class="list-item">
+              <a href="grid.html">Super Mates</a>
+            </li>
+            <li class="list-item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="list-item">
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <div class="overlay"></div>
+        </label>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+      <picture class="img-container">
+        <img
+          sizes="(max-width: 1400px) 100vw, 1400px"
+          srcset="
+            img/fondojames200.jpg 200w,
+            img/fondojames518.jpg 518w,
+            img/fondojames734.jpg 734w,
+            img/fondojames904.jpg 904w,
+            img/fondojames1050.jpg 1050w,
+            img/fondojames1243.jpg 1243w,
+            img/fondojames1398.jpg 1397w,
+            img/fondojames1400.jpg 1400w"
+          src="img/fondojames1400.jpg"
+          alt=""
+        >
+      </picture>
+      <div class="text-content">
+        <h1 style="font-family: 'Lobster', cursive;">Lebron James Proyect</h1>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- End Navbar -->
+    <main class="main-content">
+      <section class="introduction">
+        <h2>Lebron James</h2>
+        <p>Este es un pryecto personal para ensalzar la figura del baloncestista más completo desde la época de los 90s con Michael Jordan a la cabeza</p>
+        <p>Dominaba tanto el tiro medio como la zona de la pintura ejerciendo de pivot, dominado el juego como nadie en la última década.</p>
+      </section>
+      <section id="skills" class="skills">
+        <h2>Sus skills</h2>
+        <div class="skill-list">
+          <div class="skill">
+            Tiro de 2
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-75"></div>
+            </div>
+          </div>
+          <div class="skill">
+            Tiro de 3
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-50"></div>
+            </div>
+          </div>
+          <div class="skill">
+            Tiros libres
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-70"></div>
+            </div>
+          </div>
+          <div class="skill">
+            Mate
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-85"></div>
+            </div>
+          </div>
+          <div class="skill">
+            Físico
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-95"></div>
+            </div>
+          </div>
+          <div class="skill">
+            Agresividad
+            <div class="progress-container">
+              <div class="progress-bar animate-progress-bar w-85"></div>
+            </div>
+          </div>
         </div>
-        
+      </section>
+    </main>
+    <!-- Carousel -->
+    <section class="carousel-container">
+      <div class="carousel-slides">
+        <div class="slide" id="slide1">
+          <article>
+            <img src="img\lebron jameslakers.jpg" alt="mates de lebron">
+            <a href="https://www.youtube.com/watch?v=bE38lwd9D9M" target="_blank" rel="noopener noreferrer">
+              <div class="text-content main-bg">
+                <h3>Mates en los Lakers</h3>
+                <p>disfruta de losmejores matese en los Angeles Lakers</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="slide" id="slide2">
+          <article class="yard-bg">
+            <img src="img\dunk1.jpg" alt="mates de lebron">
+            <a href="https://www.youtube.com/watch?v=-siIwqu8Ti4" target="_blank" rel="noopener noreferrer">
+              <div class="text-content main-bg">
+                <h3>Mejores Mates en Cavaliers</h3>
+                <p>disfruta de los mejores Mates en los Cavaliers</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="slide" id="slide3">
+          <article>
+            <img src="img\dunk2.jpg" alt="mates de lebron">
+            <a href="https://www.youtube.com/watch?v=mv6jjSKOENc" target="_blank" rel="noopener noreferrer">
+              <div class="text-content main-bg">
+                <h3>Mejores Mates en los Miami Heats</h3>
+                <p>Disfruta de los mejores Mates en los Miami Hats</p>
+              </div>
+            </a>
+          </article>
+        </div>
       </div>
-      <div id="slide2">
-        <h3>Miami Heat</h3>
-          <iframe  src="https://www.youtube.com/embed/WhNPhgFQUQE" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+      <div class="carousel-links">
+        <a class="carousel-dot" href="#slide1"></a>
+        <a class="carousel-dot" href="#slide2"></a>
+        <a class="carousel-dot" href="#slide3"></a>
       </div>
-      <div id="slide3">
-        <h3>Los Angeles Lakers</h3>
-          <iframe  src="https://www.youtube.com/embed/N1i3eHM24Jk" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+    </section>
+    <!-- End Carousel -->
+    <form class="form-container" action="/contact" method="post">
+      <div class="input-text-group">
+        <div class="form-group">
+          <label class="text-label" for="name">Nombre</label>
+          <input required type="text" id="name" name="name" placeholder="Pon tu nombre">
+        </div>
+        <div class="form-group">
+          <label class="text-label" for="surname">Apellido</label>
+          <input placeholder="Pon tu apellido" required type="text" name="text" id="surname">
+        </div>
+        <div class="form-group">
+          <label class="text-label" for="phone">Teléfono</label>
+          <input
+            required
+            placeholder="Número de teléfono"
+            id="phone"
+            type="tel"
+            name="phone"
+            pattern="[0-9]+"
+          >
+        </div>
       </div>
-    </div>
-    <div class="carousel-links">
-      <a href="#slide1" class="carousel-dot"></a>
-      <a href="#slide2" class="carousel-dot"></a>
-      <a href="#slide3" class="carousel-dot"></a>
-    </div>
-  </section>
-  <h1>
-    Lebron´s Stats
-  </h1>
-    <form action="">
-      <div class="progress">Free-Throws %
-        <div id="barra1" class="progress-value"></div>
+      <div class="form-group">
+        <p class="text-label">¿Cómo le conociste?</p>
+        <div class="radio-group">
+          <label for="nbaacion">NBA en Acción</label>
+          <input required type="radio" name="contact" id="nbaacion" value="nbaacion">
+        </div>
+        <div class="radio-group">
+          <label for="secciondeporte">Sección de deportes del telediario</label>
+          <input required type="radio" name="contact" id="secciondeporte" value="secciondeporte">
+        </div>
+        <div class="radio-group">
+          <label for="revista">Revista Gigantes</label>
+          <input required type="radio" name="contact" id="revista" value="revista">
+        </div>
       </div>
-    <hr>
-      <div class="progress2">3-points shots
-        <div id="barra2" class="progress-value2"></div>
-      </div>
-    <hr>
-      <div  class="progress3">2-points shots
-        <div id="barra3"class="progress-value3"></div>
-      </div>
-    </form>
-    
-  <hr>
-    <form method ="post" id="suscribe">
-      <div class="personal">
-        <label for="phone">Phone</label>
-        <input required type="tel" name="phone" id="phone" placeholder="Add phone" pattern="[0-9]+">
-      </div>
-      <div>
-        <label for="name">Name</label>
-        <input required type="text" name="name" id="name" placeholder="Add your name">
-      <div>
-        <label for="surname">Surname</label>
-        <input required type="text" name="surname" id="surname" placeholder="Add your surname">
-      </div>
-    
-      <fieldset class="election">
-        <legend>Of all the LeBron teams, tell us what your best performance has been.</legend>
-        <label for="clv">Cleveland</label>
-        <input type="radio" id="clv" name="favTeam" value="cleveland">
-        <label for="mam">Miami</label>
-        <input type="radio" id="mam" name="favTeam" value="miami">
-        <label for="lkr">Lakers</label>
-        <input type="radio" id="lkr" name="favTeam" value="lakers">
-      </fieldset>
-        <label for="bio">Just tell us why </label>
-        <textarea required minlength="10" name="why" id="why"></textarea>
-      <div>
-        <input type="submit" value="Send">
-      </div>
-      <div>
-        <a href="grid.html">Best Dunks</a>
-      </div>
-    </form>
-  <!--stats-->
   
-</body>
-<footer>
-  <ul class="list-icons">
-    <li><a href="www.youtube.com" rel="nofollow">
-      <img src="img\fondo-youtube-icono-youtube-iconos-redes-sociales-logotipo-realista-vector-zaporizhzhia-ucrania-10-mayo-2021_399089-1047.webp" alt="youtube-icon" height="30px" width="30px">
-    </a></li>
-    <li><a href="www.nba.com" rel="nofollow">
-      <img src="img\NBA-logo-png-download-free (1).png" alt="icono-NBA" width="30px" height="30px" ></a></li>
-    <li><a href="lebronjames.com" rel="nofollow">
-      <img src="img\20618-9-lebron-james.png" alt="lebronjames-icon" height="30px" width="30px">
-    </a></li>
-  </ul>
-</footer>
-
-</html>
+      <div class="form-group">
+        <label class="text-label" for="moreInfo">Recibe más información</label>
+        <textarea required name="moreInfo" id="moreInfo" maxlength="180" placeholder="Que mas quieres saber" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <button class="btn" type="submit">Enviar</button>
+      </div>
+    </form>
+    <!-- Footer -->
+    <footer id="contacto" class="footer main-bg">
+      <div class="rrss">
+        <a class="link" href="https://www.youtube.com/lebronjamescom" target="_blank" rel="noopener noreferrer">
+          <svg class="youtube" stroke="none" viewBox="0 0 32 32">
+            <path d="M25.3 4.7H6.7C2.9 4.7 0 7.6 0 11.3v9.3c0 3.7 2.9 6.7 6.7 6.7h18.7c3.7 0 6.7-2.9 6.7-6.7v-9.3c-.1-3.7-3-6.6-6.8-6.6zm-4.5 11.7L12 20.5c-.3.1-.5 0-.5-.3v-8.5c0-.3.3-.4.5-.3l8.8 4.4c.3.2.3.5 0 .6z"></path>
+          </svg>
+        </a>
+        <a class="link" href="https://www.instagram.com/KingJames/" target="_blank" rel="noopener noreferrer">
+          <svg class="instagram" stroke="none" viewBox="0 0 32 32">
+            <path d="M22.6 0h-13C4.3 0 0 4.3 0 9.5v13C0 27.7 4.3 32 9.5 32h13c5.2 0 9.5-4.3 9.5-9.5v-13c.1-5.2-4.2-9.5-9.4-9.5zm6.3 22.6c0 3.5-2.8 6.3-6.3 6.3h-13c-3.5 0-6.3-2.8-6.3-6.3V9.5c0-3.5 2.8-6.3 6.3-6.3h13c3.5 0 6.3 2.8 6.3 6.3v13.1z"></path>
+            <path d="M16.1 7.8c-4.6 0-8.3 3.7-8.3 8.3s3.7 8.3 8.3 8.3 8.3-3.7 8.3-8.3-3.8-8.3-8.3-8.3zm0 13.4c-2.8 0-5.1-2.3-5.1-5.1s2.3-5.1 5.1-5.1 5.1 2.3 5.1 5.1-2.3 5.1-5.1 5.1z"></path><circle cx="24.4" cy="7.8" r="2"></circle>
+          </svg>
+        </a>
+        <a class="link" href="https://twitter.com/KingJames" target="_blank" rel="noopener noreferrer">
+          <svg class="fill-current text-black hover:text-primary-500 w-5 h-5 twitter" stroke="none" viewBox="0 0 32 32">
+            <path d="M31.6 5.7c-.7.3-1.5.5-2.3.8.8-.8 1.5-1.7 1.9-2.9.1-.3-.3-.5-.5-.4-1.1.7-2.1 1.1-3.3 1.3H27c-.3 0-.4-.1-.5-.3-1.3-.9-2.9-1.6-4.7-1.6-.7 0-1.5.1-2.1.4-2.3.7-4 2.5-4.5 4.8-.3.8-.3 1.7-.1 2.5v.1l-.1.1C9.8 10.2 5.3 7.8 2.1 4c-.1-.2-.4-.2-.5.1C.9 5 .7 6.2.7 7.6c0 1.9.8 3.6 2 4.9-.5-.3-1.1-.4-1.5-.7-.3-.1-.5 0-.5.3 0 2.8 1.6 5.2 4 6.4h-.2c-.4 0-.8 0-1.2-.1-.3 0-.5.3-.4.4.8 2.5 2.9 4.4 5.5 4.8-2.1 1.5-4.5 2.1-7.1 2.1H.5c-.3 0-.4.1-.5.4 0 .3 0 .5.3.7 2.8 1.6 6.2 2.5 9.5 2.5 2.9 0 5.6-.5 8.2-1.7 2.3-1.1 4.3-2.5 6-4.4 1.6-1.7 2.8-3.9 3.6-6.2.8-2.1 1.2-4.5 1.2-6.7v-.1c0-.4.1-.7.4-.9 1.1-.8 2-1.9 2.8-3.1.1-.2-.2-.6-.4-.5z"></path>
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+  </html>
