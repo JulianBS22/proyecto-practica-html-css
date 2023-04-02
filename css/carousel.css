@@ -40,13 +40,11 @@
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  background-image: url(img/Img269220518.jpg);
-
+ 
 }
 
 .carousel-slides .slide.yard-bg {
-  background-image: url(img/Img269220518.jpg);
-
+  background-image: url("../img/kingjames.jpg"); 
 }
 
 .carousel-slides .slide a {
